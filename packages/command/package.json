@@ -1,0 +1,15 @@
+{
+  "name": "@koi-efficient/command",
+  "version": "0.0.0",
+  "description": "common command class",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syukinmei <syukinmei321@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ]
+}

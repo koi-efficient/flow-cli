@@ -1,0 +1,26 @@
+{
+  "name": "@koi-efficient/flow-cli",
+  "version": "0.0.0",
+  "description": "A command-line interface that covers the entire front-end R&D process",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koi-flow"
+  ],
+  "author": "syukinmei <syukinmei321@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "bin": {
+    "koi-flow": "bin/cli.js"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "dependencies": {
+    "@koi-efficient/create": "workspace:^",
+    "commander": "^12.0.0"
+  }
+}
