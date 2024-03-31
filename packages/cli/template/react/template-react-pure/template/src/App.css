@@ -1,0 +1,35 @@
+#root {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.theme-container {
+    max-width: 1280px;
+    margin: 0 40px 0 0;
+    padding: 2rem;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.customItem-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.customItem {
+    margin: 20px 0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
