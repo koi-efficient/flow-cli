@@ -1,0 +1,17 @@
+{
+  "name": "@koi-efficient/utils",
+  "version": "0.0.0",
+  "description": "public utils",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "syukinmei <syukinmei321@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
+}
