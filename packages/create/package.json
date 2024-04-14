@@ -14,6 +14,7 @@
     "lib"
   ],
   "dependencies": {
-    "@koi-efficient/command": "workspace:^"
+    "@koi-efficient/command": "workspace:^",
+    "@koi-efficient/utils": "workspace:^"
   }
 }
