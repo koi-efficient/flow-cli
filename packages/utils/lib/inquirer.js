@@ -10,6 +10,7 @@ function _make({
     validate,
     pageSize,
     loop,
+    when,
 }) {
     const options = {
         name: "name",
@@ -21,6 +22,7 @@ function _make({
         validate,
         pageSize,
         loop,
+        when,
         ...(type === "list"
             ? {
                   choices,
@@ -29,6 +31,9 @@ function _make({
     };
 
     return inquirer.prompt(options).then((answer) => {
+        if (typeof when === "boolean" && !when) {
+            return defaultValue;
+        }
         return answer.name;
     });
 }
