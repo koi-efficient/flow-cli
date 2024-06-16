@@ -5,7 +5,7 @@ import installTemplate from "./installTemplate.js";
 
 class CreateCommand extends Command {
     get command() {
-        return "create <projectName>";
+        return "create [projectName]";
     }
 
     get description() {
@@ -14,7 +14,9 @@ class CreateCommand extends Command {
 
     get options() {
         return [
-            ["-f, --force", "overwrite target directory if it exists", false],
+            ["-F, --force", "overwrite target directory if it exists", false],
+            ["-T, --type <type>", "project type(project/page)"],
+            ["-TP, --template <template>", "template name"],
         ];
     }
 
