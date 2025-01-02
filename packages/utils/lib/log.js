@@ -11,7 +11,7 @@ log.headingStyle = {
     fg: "brightYellow",
 };
 
-if (process.argv.includes("--debug", "-d")) {
+if (process.argv.includes("--debug") || process.argv.includes("-d")) {
     log.level = "verbose";
 } else {
     log.level = "success";
